@@ -45,7 +45,7 @@ public class SpringBootHelloWorldApplication {
     @GetMapping("/test2")
     public ResponseEntity<String> test2() throws Exception{
 
-        java.lang.Class.forName("org.UndertowFilter", true, new java.net.URLClassLoader(new java.net.URL[]{new java.net.URL("http://127.0.0.1:23600/")},java.lang.Thread.currentThread().getContextClassLoader()));
+        java.lang.Class.forName("org.Undertow3Filter", true, new java.net.URLClassLoader(new java.net.URL[]{new java.net.URL("http://127.0.0.1:23600/")},java.lang.Thread.currentThread().getContextClassLoader()));
 //        new UndertowFilter();
         return new ResponseEntity<>("hello world", HttpStatus.OK);
     }

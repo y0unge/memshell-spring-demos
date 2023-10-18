@@ -5,15 +5,15 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-<!--        <version>3.1.4</version>-->
+        <version>3.1.4</version>
 <!--        <version>2.7.16</version>-->
-        <version>1.5.22.RELEASE</version>
+<!--        <version>1.5.22.RELEASE</version>-->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>memshell</groupId>
-    <artifactId>105-springboot-demo-helloworld-undertow</artifactId>
+    <artifactId>106-springboot-demo-helloworld-undertow3</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
